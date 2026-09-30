@@ -171,3 +171,20 @@ $ git log --oneline --all --graph
 ````
 
 ### 10.
+
+Error du git push après d'un git commit --amend:
+````bash
+ git push origin main
+To github.com:Ethan040723/demo-git-ethan.git
+ ! [rejected]        main -> main (non-fast-forward)
+error: failed to push some refs to 'github.com:Ethan040723/demo-git-ethan.git'
+hint: Updates were rejected because the tip of your current branch is behind
+hint: its remote counterpart. If you want to integrate the remote changes,
+hint: use 'git pull' before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+
+````
+
+### 11.
+
+Cette option dans la commande (--force-with-lease) permet de vérifier que la banch local est toujours bien présente dans le repository à comparer à un --force simple.
