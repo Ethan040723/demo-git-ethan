@@ -14,4 +14,18 @@ Comme l'hypotèse l'avais pronocer il n'y a aucun commit de fusion
 
 Alerte ne pas faire attention au deux premier commit car dans le tout premier je n'avais rien ecrit dans le fichier.txt .
 
+### 4.
+
 Git n'a pas créer de commit de fusion car le branch n'a pas d'avancement depui la création de la branch
+
+### 6.
+
+le commit de fusion à deux parent la branch main et la branch feature-b
+
+le Résultat de la commande git cat-file -p HEAD | grep parent:
+````
+Ethan@DESKTOP-N7IV693 MINGW64 /d/GitHub/tp-02-zones-git/merge-lab (main)
+$ git cat-file -p HEAD | grep parent
+parent 34645eb372c9dfcce05086b794b52bd2b41e4a35
+parent 69a843db2846854ef1fc043285ef28b19fcb990e
+````
