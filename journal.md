@@ -98,3 +98,22 @@ voici le commit de fusion et c'est parent
 ![alt text](image.png)
 
 le rebase permet d'ajouter la branch bugfix dans la branch main comme si aucune n'avais été créer
+
+# TP5
+
+### 3.
+
+Résultat git remote -v
+```` bash 
+origin  git@github.com:Ethan040723/demo-git-ethan.git (fetch)
+origin  git@github.com:Ethan040723/demo-git-ethan.git (push)
+````
+
+Résultat git branch -vv
+````bash
+$ git branch -vv
+  feature   2fc8b9d Premier commit feature-c
+  feature-a b42b00a First Commit dans la branch feature
+  feature-b 69a843d First Commit dans la branch feature-b
+* main      3aa3949 Rajout de tout le tp4
+````
