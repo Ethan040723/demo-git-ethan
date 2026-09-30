@@ -188,3 +188,6 @@ hint: See the 'Note about fast-forwards' in 'git push --help' for details.
 ### 11.
 
 Cette option dans la commande (--force-with-lease) permet de vérifier que la banch local est toujours bien présente dans le repository à comparer à un --force simple.
+
+### 14. 
+Permet de fermer une issue qui est importante ou urgence mais permet de la réouvrir si un rewiewver relie le code et n'est pas d'accord.
